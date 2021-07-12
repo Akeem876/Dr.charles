@@ -9,6 +9,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style-type: none;
 }
 /* HEADER */
 header {
@@ -26,6 +27,7 @@ header {
 }
 .background {
   width: 100vw;
+  z-index: -1;
 }
 .main-header {
   position: relative;
@@ -33,24 +35,66 @@ header {
 .drcharles-first {
   height: 350px;
   position: absolute;
-  bottom: -6px;
-  right: 160px;
+  bottom: -15px;
+  right: 60px;
+  z-index: 1;
 }
 .main-header-text {
-  color: #fee1e1;
-  font-size: 4.2rem;
+  color: #ebebeb;
+  font-size: 4rem;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
 }
 .main-header-text span {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 200;
   display: block;
   margin-left: 80px;
 }
 .text-header {
   position: absolute;
-  bottom: 20px;
+  bottom: 80px;
   left: 50px;
+  z-index: 3;
+}
+.main-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(100, 95, 95, 0.253) 20%,
+    rgba(0, 0, 0, 0.35) 70%
+  );
+}
+/* NAV */
+nav {
+  background-color: #c8dada;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 8vh;
+  margin: auto;
+}
+nav ul li a {
+  color: #747474;
+  text-decoration: none;
+}
+nav ul li {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  transition: all ease 0.4s;
+  border-radius: 3px;
+}
+nav ul li:hover {
+  background-color: #c3cece;
 }
