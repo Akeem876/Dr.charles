@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;400&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-100px);
+  height: 80px;
+  cursor: pointer;
+}
+.background {
+  width: 100vw;
+}
+.main-header {
+  position: relative;
+}
+.drcharles-first {
+  height: 350px;
+  position: absolute;
+  bottom: -6px;
+  right: 160px;
+}
+.main-header-text {
+  color: #fee1e1;
+  font-size: 4.2rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.main-header-text span {
+  font-size: 2.8rem;
+  font-weight: 200;
+  display: block;
+  margin-left: 80px;
+}
+.text-header {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
