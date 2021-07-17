@@ -24,6 +24,7 @@ header {
   transform: translateX(-100px);
   height: 80px;
   cursor: pointer;
+  z-index: 3;
 }
 .background {
   width: 100%;
@@ -37,7 +38,7 @@ header {
   position: absolute;
   bottom: -15px;
   right: 60px;
-  z-index: 1;
+  z-index: 3;
 }
 .main-header-text {
   color: #ebebeb;
@@ -67,7 +68,7 @@ header {
   height: 100%;
   background-image: linear-gradient(
     180deg,
-    rgba(100, 95, 95, 0.253) 20%,
+    rgba(100, 95, 95, 0.253) 10%,
     rgba(0, 0, 0, 0.35) 70%
   );
 }
@@ -123,6 +124,7 @@ nav ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: #07433c 18px 18px;
 }
 .title-text h3 {
   font-size: 1.5rem;
@@ -156,13 +158,16 @@ nav ul li:hover {
   margin: auto;
 }
 /* WELCOME */
+.welcome {
+  margin-top: 200px;
+}
 
 .welcome-message {
   background-color: #c4d3d2;
   padding: 40px 20px;
   box-shadow: #56ada3 20px 20px;
   width: 70%;
-  margin: auto;
+  margin: 0px auto;
 }
 .welcome-message p {
   color: #696969;
@@ -174,7 +179,7 @@ nav ul li:hover {
 /* MISC */
 
 .misc {
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
 }
 .misc img {
@@ -201,7 +206,7 @@ nav ul li:hover {
   color: #05786a;
   text-transform: uppercase;
   font-size: 2rem;
-  margin: 60px auto;
+  margin: 100px auto;
   width: 40%;
 }
 .testimonial-title h2 {
@@ -217,7 +222,7 @@ nav ul li:hover {
   text-align: center;
 }
 .testimonial {
-  margin-top: 200px;
+  margin-top: 150px;
   position: relative;
 }
 .testimonial button {
@@ -241,7 +246,25 @@ nav ul li:hover {
 .covid-update {
   margin-top: 200px;
   background-color: #c4d3d2;
-  padding: 30px 14px;
+  padding: 120px 14px;
+  position: relative;
+}
+.covid-icons i {
+  position: absolute;
+  font-size: 6.5rem;
+  color: #91a8a6;
+}
+.covid-icons .fa-lungs-virus {
+  top: 50%;
+  right: 20px;
+}
+.covid-icons .fa-viruses {
+  top: 5px;
+  left: 50%;
+}
+.covid-icons .fa-head-side-mask {
+  bottom: 0px;
+  left: 0px;
 }
 .covid-update p {
   font-size: 0.9rem;
@@ -292,6 +315,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: linear-gradient(180deg, transparent, rgb(102, 199, 216));
+  padding-top: 80px;
 }
 footer h3 {
   margin-bottom: 50px;
@@ -313,7 +338,7 @@ footer img {
 .divider {
   width: 2px;
   height: 180px;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255);
 }
 .copywrites p {
   font-size: 0.8rem;
