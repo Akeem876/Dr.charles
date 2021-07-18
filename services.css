@@ -11,3 +11,81 @@ body {
   font-family: "Poppins", sans-serif;
   list-style-type: none;
 }
+/* NAVIGATION */
+.header {
+  background-color: #639d96;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+nav img {
+  height: 80px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.navigation ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #c4d3d2;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+/* PAGE-TITLE */
+.page-title-cont {
+  background-color: burlywood;
+  width: 100%;
+  height: 25vh;
+  background-image: url(./images/jonathan-borba-W9YEY6G8LVM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  background-color: #c4d3d23d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.page-title {
+  width: 35%;
+  padding: 50px 40px;
+}
+.page-title h2 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: #5b5b5b;
+}
+.underline {
+  background-color: #56ada3;
+  width: 60%;
+  height: 2px;
+}
+/* GENERAL DENTISTRY */
+.general-dentistry {
+  margin-top: 90px;
+}
+.general-dentistry-title {
+  width: 30%;
+  margin: auto;
+}
+.general-dentistry-title .underline {
+  margin: auto;
+}
+.general-dentistry-title h3 {
+  color: #5b5b5b;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: capitalize;
+}

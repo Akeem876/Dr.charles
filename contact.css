@@ -11,3 +11,35 @@ body {
   font-family: "Poppins", sans-serif;
   list-style-type: none;
 }
+/* NAVIGATION */
+
+.header {
+  background-color: #639d96;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+nav img {
+  height: 80px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.navigation ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #c4d3d2;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: capitalize;
+}
