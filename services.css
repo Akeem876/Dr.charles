@@ -44,7 +44,7 @@ nav img {
 }
 /* PAGE-TITLE */
 .page-title-cont {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   width: 100%;
   height: 25vh;
   background-image: url(./images/jonathan-borba-W9YEY6G8LVM-unsplash.jpg);
@@ -73,6 +73,19 @@ nav img {
   height: 2px;
 }
 /* GENERAL DENTISTRY */
+.general {
+  margin: 60px 0;
+}
+.general-title p {
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+.general-title h3 {
+  color: #5b5b5b;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
 .general-dentistry {
   margin-top: 90px;
 }
@@ -88,4 +101,99 @@ nav img {
   font-size: 1.8rem;
   text-align: center;
   text-transform: capitalize;
+}
+/* COSMETIC DENTISTRY */
+.cosmetic {
+  margin: 60px 0;
+}
+.cosmetic-title h3 {
+  color: #5b5b5b;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.cosmetic-title p {
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+.cosmetic-dentistry {
+  margin-top: 90px;
+}
+.cosmetic-dentistry-title {
+  width: 30%;
+  margin: auto;
+}
+.cosmetic-dentistry-title .underline {
+  margin: auto;
+}
+.cosmetic-dentistry-title h3 {
+  color: #5b5b5b;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.services {
+  width: 85%;
+  margin: auto;
+}
+/* FOOTER */
+footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-image: linear-gradient(180deg, transparent, rgb(102, 199, 216)); */
+  padding-top: 80px;
+}
+footer h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-weight: 300;
+}
+footer img {
+  width: 100%;
+}
+.brands {
+  margin-top: 5px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.email {
+  margin-top: 10px;
+}
+.follow {
+  margin: 10px 0;
+}
+
+.sides {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.divider {
+  width: 2px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+}
+.copywrites p {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  line-height: 60px;
+  color: #fff;
+}
+.right-side span {
+  color: rgb(156, 19, 19);
+  font-weight: 500;
+}
+footer img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+footer {
+  position: relative;
 }
